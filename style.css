@@ -250,7 +250,7 @@ section #wind {
         }
 
         #tuesday {
-            gap: 65px;
+            gap: 70px;
 
             img {
                 width: 50px;
@@ -259,35 +259,24 @@ section #wind {
 
         .for {
             font-size: 12px;
-            /* border: 1px solid black; */
+            gap: 75px;
             display: flex;
-            gap: 65px;
+
         }
 
         #forcast {
             display: flex;
             justify-content: flex-start;
             height: 580px;
+            width: 90%;
+            margin: 28px auto;
         }
 
         #forcast::after {
             height: 590px;
-        }
-
-        #forcast {
-            width: 90%;
-            margin: 28px auto;
-        }
-        .for{
-            gap: 75px;
-        }
-        #tuesday{
-            gap: 70px;
-        }
-        #forcast::after {
             content: '';
             width: 90%;
             height: 585px;
             position: absolute;
-    }
+        }
     }
